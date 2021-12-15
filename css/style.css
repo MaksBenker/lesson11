@@ -1,0 +1,297 @@
+/*&display=swap*/
+/*&subset=cyrillic-ext*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap);
+
+/*обнуление*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+}
+.wrapper {
+	min-height: 100%;
+	padding: 250px 50px 50px 50px;
+}
+
+.first-title {
+	width: 100%;
+	text-transform: uppercase;
+	background: rebeccapurple;
+	padding: 25px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	z-index: 10;
+}
+.first-title:hover {
+	color: tomato;
+	text-shadow: tomato 3px 5px 4px;
+}
+
+.main-block__first {
+	margin-bottom: 220px;
+}
+
+.some-text-block__content {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.some-text-block__content::before {
+	content: "";
+	display: inline-block;
+	width: 695px;
+	height: 308px;
+	background: url(../img/icons/extra/pyatno.png) 0 0 no-repeat;
+	position: absolute;
+	top: -110px;
+	left: 470px;
+}
+.some-text-block::before {
+	content: "";
+	display: inline-block;
+	width: 695px;
+	height: 308px;
+	background: url(../img/icons/extra/pexels.png) 0 0 no-repeat;
+	position: absolute;
+	top: 160px;
+	left: 830px;
+	z-index: 3;
+}
+.some-text-block__block-text {
+	width: 411px;
+}
+
+.some-text-block {
+	background: turquoise;
+	width: 1440px;
+	padding: 112px 0px 212px 210px;
+}
+.some-text-block__title {
+	font-size: 12px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2.5;
+	padding: 0px 0px 0px 35px;
+	margin-bottom: 32px;
+}
+.some-text-block__title::before {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url(../img/icons/extra/OverlineMark.svg) 0 0 no-repeat;
+	position: absolute;
+	left: 0px;
+	top: -8px;
+}
+
+.some-text-block__sub-title {
+	font-size: 36px;
+	font-weight: 900;
+	color: #ffffff;
+	margin-bottom: 79px;
+}
+
+.some-text-block__block-image {
+	display: inline-block;
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+.some-text-block__image {
+	position: sticky;
+	border-radius: 20px;
+	z-index: 2;
+}
+
+.block-info {
+	display: inline-block;
+	width: 200px;
+	position: relative;
+	padding: 0px 0px 0px 87px;
+}
+
+.block-info:not(:last-child) {
+	margin-right: 71px;
+}
+
+.block-info::before {
+	content: "";
+	display: inline-block;
+	width: 76px;
+	height: 76px;
+	background: url(../img/icons/extra/duckling_1.svg) 0 0 no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.block-info__numb {
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 900;
+	color: #ffffff;
+	margin-bottom: 12px;
+}
+.block-info__text {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #5d62b5;
+	line-height: 24px;
+}
+
+.twice-title{
+	width: 100%;
+	background-color: blue;
+	padding: 50px;
+	font-size: 60px;
+	color: cornsilk;
+	text-align: center;
+	font-weight: 900;
+}
+
+.twice-title:hover{
+	background: url(../img/icons/dogs/Block.jpeg)0 0 repeat-x;
+	display: block;
+	height:2000px;
+	width:3000px;
+}
+
+.twice-title__margin{
+	margin-bottom: 300px;
+}
+
+.who-we-are {
+	background: #5d62b5;
+	padding: 100px 0px 0px 87px;
+	width: 1020px;
+	border-radius: 40px;
+	position: relative;
+	top:0px;
+	left: 0px;
+}
+
+.who-we-are::after{
+	content: "";
+	display: inline-block;
+	background: url(../img/icons/dogs/stylize_circles.svg) 0 0 no-repeat;
+	width: 614px;
+	height: 420px;
+	position: absolute;
+	top:-110px;
+	right:-490px;
+
+}
+
+.who-we-are__content {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.who-we-are__content::after{
+	content: "";
+	display: inline-block;
+	background: url(../img/icons/dogs/Blob.svg) 0 0 no-repeat;
+	width: 614px;
+	height: 420px;
+	position: absolute;
+	top: 210px;
+	left: -90px;
+}
+
+
+.who-we-are__title {
+	font-size: 12px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2.5;
+	padding: 0px 0px 0px 35px;
+	margin-bottom: 32px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.who-we-are__title::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/icons/dogs/overline-mark-white.svg) 0 0 no-repeat;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+}
+
+.who-we-are__sub-title {
+	width: 800px;
+	font-size: 36px;
+	font-weight: 900;
+	color: #ffffff;
+	line-height: 42px;
+	margin-bottom: 79px;
+}
+.who-we-are__text {
+	width: 846px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15;
+	color: #f5f5f5;
+	padding-bottom: 354px;
+}
+.who-we-are__image {
+	border-radius: 30px;
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	box-shadow: 0px 8px 16px 0px;
+	z-index: 3;
+}
